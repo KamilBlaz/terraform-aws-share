@@ -1,7 +1,7 @@
 
 provider "aws" {
   region = "us-east-1"
-  profile = "kblaz"
+  profile = "default"
 }
 
 data "aws_region" "current" {}
